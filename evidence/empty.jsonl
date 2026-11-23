@@ -1,0 +1,4 @@
+{"kind":"scan","message":"0 candidate clips; 0 quarantined","path":null,"pass":0,"level":null}
+{"kind":"scan","message":"0 candidate clips; 0 quarantined","path":null,"pass":1,"level":null}
+{"kind":"idle","message":"No playable clips. Choose a folder or use Rescan to retry.","path":null,"pass":2,"level":null}
+{"kind":"stopped","message":"Player stopped","path":null,"pass":2,"level":null}

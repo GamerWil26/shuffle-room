@@ -1,0 +1,8 @@
+/target/
+/dist/
+/fixtures/
+/evidence/capture/
+*.log
+/.test-cache/
+
+__pycache__/

@@ -1,0 +1,26 @@
+[package]
+name = "shuffle-room"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Hands-free shuffled video playback with measured clip loudness"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+eframe = { version = "0.31.1", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+rfd = "0.15.4"
+rand = "0.8.5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tempfile = "3"
+url = "2"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_Storage_FileSystem", "Win32_System_IO", "Win32_System_Threading", "Win32_Security"] }
+
+[profile.release]
+strip = true
+lto = "thin"
+
+[workspace]

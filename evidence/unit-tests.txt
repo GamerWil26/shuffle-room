@@ -1,0 +1,13 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.35s
+     Running unittests src/main.rs (target/debug/build/shuffle-room/8508e41d899cfab4/out/shuffle_room-8508e41d899cfab4)
+
+running 6 tests
+test media::tests::gain_limits_and_silence ... ok
+test links::tests::accepts_and_normalizes_video_links ... ok
+test shuffle::tests::empty_and_single ... ok
+test media::tests::scan_is_shallow_and_case_insensitive ... ok
+test links::tests::shortcut_roundtrip_preserves_existing_files ... ok
+test shuffle::tests::permutation_and_boundary_for_many_passes ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

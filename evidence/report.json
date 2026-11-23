@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "passes": {
+    "1": [
+      "02-loud.mkv",
+      "03-medium.webm",
+      "05-silent.mp4",
+      "07-near-silent.mkv",
+      "01-quiet.mp4",
+      "06-no-audio.mov",
+      "04-medium.avi",
+      "08-transient.mkv"
+    ],
+    "2": [
+      "02-loud.mkv",
+      "05-silent.mp4",
+      "01-quiet.mp4",
+      "07-near-silent.mkv",
+      "03-medium.webm",
+      "08-transient.mkv",
+      "04-medium.avi",
+      "06-no-audio.mov"
+    ]
+  },
+  "loudness": [
+    {
+      "clip": "02-loud.mkv",
+      "before": {
+        "lufs": -6.05,
+        "peak_dbtp": -5.51
+      },
+      "after": {
+        "lufs": -18.05,
+        "peak_dbtp": -17.46
+      },
+      "gain_db": -11.95
+    },
+    {
+      "clip": "03-medium.webm",
+      "before": {
+        "lufs": -19.75,
+        "peak_dbtp": -19.32
+      },
+      "after": {
+        "lufs": -18.05,
+        "peak_dbtp": -17.57
+      },
+      "gain_db": 1.75
+    },
+    {
+      "clip": "05-silent.mp4",
+      "before": {
+        "lufs": null,
+        "peak_dbtp": null
+      },
+      "after": {
+        "lufs": null,
+        "peak_dbtp": null
+      },
+      "gain_db": 0.0
+    },
+    {
+      "clip": "07-near-silent.mkv",
+      "before": {
+        "lufs": null,
+        "peak_dbtp": -87.08
+      },
+      "after": {
+        "lufs": null,
+        "peak_dbtp": -89.21
+      },
+      "gain_db": 0.0
+    },
+    {
+      "clip": "01-quiet.mp4",
+      "before": {
+        "lufs": -36.69,
+        "peak_dbtp": -35.08
+      },
+      "after": {
+        "lufs": -18.69,
+        "peak_dbtp": -17.08
+      },
+      "gain_db": 18.0
+    },
+    {
+      "clip": "04-medium.avi",
+      "before": {
+        "lufs": -18.76,
+        "peak_dbtp": -17.99
+      },
+      "after": {
+        "lufs": -18.06,
+        "peak_dbtp": -17.23
+      },
+      "gain_db": 0.7600000000000016
+    },
+    {
+      "clip": "08-transient.mkv",
+      "before": {
+        "lufs": -24.05,
+        "peak_dbtp": -4.95
+      },
+      "after": {
+        "lufs": -21.05,
+        "peak_dbtp": -2.0
+      },
+      "gain_db": 2.95
+    }
+  ],
+  "checks": [
+    "16 actual mpv completions",
+    "shuffled permutations",
+    "no adjacent repeats",
+    "invalid-file quarantine",
+    "analysis cache",
+    "original hashes unchanged",
+    "silence preserved",
+    "peak ceiling",
+    "single clip looping",
+    "empty folder",
+    "all corrupt idle",
+    "manual rescan discovers added video",
+    "YouTube URL synthetic cache playback",
+    "invalid URL fallback"
+  ],
+  "limits": [
+    "headless Linux null video and actual mpv PCM output; no speaker hardware",
+    "no live YouTube download; synthetic cached URL only",
+    "no native Windows/macOS run"
+  ]
+}

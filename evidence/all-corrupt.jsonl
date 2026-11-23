@@ -1,0 +1,6 @@
+{"kind":"scan","message":"1 candidate clips; 0 quarantined","path":null,"pass":0,"level":null}
+{"kind":"analyzing","message":"Preparing and measuring clip (YouTube downloads on first play; Skip cancels)","path":"/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4","pass":1,"level":null}
+{"kind":"skipped","message":"Media helper failed: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x55bb2b33c000] moov atom not found\n/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4: Invalid data found when processing input\n","path":"/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4","pass":1,"level":null}
+{"kind":"scan","message":"0 candidate clips; 1 quarantined","path":"/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4","pass":1,"level":null}
+{"kind":"idle","message":"No playable clips. Choose a folder or use Rescan to retry.","path":"/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4","pass":2,"level":null}
+{"kind":"stopped","message":"Player stopped","path":"/tmp/shuffle-verification-4nucrr85/corrupt/09-corrupt.mp4","pass":2,"level":null}
